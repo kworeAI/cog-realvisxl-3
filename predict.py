@@ -6,7 +6,7 @@ import subprocess
 import time
 from typing import Any, Callable, Dict, List, Optional, Tuple, Union
 from weights import WeightsDownloadCache
-
+import matplotlib.pyplot as plt
 import numpy as np
 import torch
 from cog import BasePredictor, Input, Path
